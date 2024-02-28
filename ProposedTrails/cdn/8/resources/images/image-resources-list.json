@@ -1,0 +1,30 @@
+{
+  "1660145406749": {
+    "originalName": "trail.png",
+    "fileName": "1660145406749.png",
+    "size": 371293,
+    "url": "${appResourceUrl}/images/widget_8/1660145406749.png",
+    "created": 1660145406749,
+    "resourcesPrefix": "images/widget_8",
+    "referedIds": [],
+    "originId": "1660145406749",
+    "fileFormat": "image/png",
+    "isUseCompress": false,
+    "originalWidth": 643,
+    "originalHeight": 643
+  },
+  "1660145422488": {
+    "originalName": "trailhead.png",
+    "fileName": "1660145422488.png",
+    "size": 28704,
+    "url": "${appResourceUrl}/images/widget_23/1660145422488.png",
+    "created": 1660145422488,
+    "resourcesPrefix": "images/widget_23",
+    "referedIds": [],
+    "originId": "1660145422488",
+    "fileFormat": "image/png",
+    "isUseCompress": false,
+    "originalWidth": 457,
+    "originalHeight": 370
+  }
+}
