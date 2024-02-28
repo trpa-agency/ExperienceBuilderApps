@@ -1,0 +1,1051 @@
+{
+  "pages": {
+    "home": {
+      "type": "NORMAL",
+      "mode": "FIT_WINDOW",
+      "layout": {
+        "LARGE": "layout_1"
+      },
+      "isVisible": true,
+      "isDefault": true,
+      "id": "home",
+      "header": false,
+      "label": "Local Plan Search"
+    }
+  },
+  "layouts": {
+    "layout_1": {
+      "type": "FIXED",
+      "order": [
+        "0",
+        "1"
+      ],
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0px",
+            "top": "0px",
+            "width": "39.072%",
+            "height": "60px",
+            "right": "0px"
+          },
+          "widgetId": "widget_1",
+          "setting": {
+            "autoProps": {
+              "width": "STRETCH"
+            }
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0px",
+            "top": "60px",
+            "width": "78.1441%",
+            "height": "52.1173%",
+            "right": "0px",
+            "bottom": "0px"
+          },
+          "widgetId": "widget_6",
+          "setting": {
+            "autoProps": {
+              "height": "STRETCH",
+              "width": "STRETCH"
+            }
+          }
+        }
+      }
+    },
+    "layout_2": {
+      "type": "FIXED",
+      "order": [
+        "0",
+        "1",
+        "2"
+      ],
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "14px",
+            "top": "50%",
+            "width": "36px",
+            "height": "36px"
+          },
+          "setting": {
+            "vCenter": true,
+            "autoProps": {
+              "top": false,
+              "bottom": true
+            }
+          },
+          "widgetId": "widget_2"
+        },
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "80px",
+            "top": "18.6%",
+            "width": "291px",
+            "height": "42px",
+            "bottom": "7px",
+            "right": "909px"
+          },
+          "widgetId": "widget_3",
+          "setting": {
+            "vCenter": false,
+            "hCenter": false,
+            "autoProps": {
+              "top": true,
+              "bottom": false,
+              "left": false,
+              "right": true
+            }
+          },
+          "isPending": false
+        },
+        "2": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "380px",
+            "top": "50%",
+            "width": "207px",
+            "height": "32px",
+            "bottom": "0px",
+            "right": "NaNpx"
+          },
+          "setting": {
+            "hCenter": false,
+            "vCenter": true,
+            "autoProps": {
+              "top": false,
+              "bottom": true
+            }
+          }
+        }
+      },
+      "label": "Default"
+    },
+    "layout_7": {
+      "type": "FIXED",
+      "order": [
+        "0"
+      ],
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0.00%",
+            "top": "0.00%",
+            "width": "100%",
+            "height": "100%",
+            "right": "0.00%",
+            "bottom": "0.00%"
+          },
+          "widgetId": "widget_7",
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": false,
+              "width": "STRETCH",
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "label": "First"
+    },
+    "layout_10": {
+      "type": "FIXED",
+      "content": {},
+      "order": [],
+      "label": "Selected"
+    },
+    "layout_11": {
+      "type": "FIXED",
+      "content": {},
+      "order": [],
+      "label": "Selected"
+    },
+    "layout_12": {
+      "type": "FIXED",
+      "label": "Hover"
+    },
+    "layout_13": {
+      "type": "FIXED",
+      "label": "Hover"
+    },
+    "layout_14": {
+      "type": "FIXED",
+      "order": [
+        "0"
+      ],
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0px",
+            "top": "0px",
+            "width": "879px",
+            "height": "738px",
+            "right": "0px",
+            "bottom": "0px"
+          },
+          "widgetId": "widget_11",
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": false,
+              "width": "STRETCH",
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
+        }
+      },
+      "label": "Second"
+    },
+    "layout_15": {
+      "type": "FIXED",
+      "label": "Map FixedLayout"
+    },
+    "layout_27": {
+      "type": "FIXED",
+      "content": {},
+      "order": [],
+      "label": "Selected"
+    },
+    "layout_28": {
+      "type": "FIXED",
+      "label": "Hover"
+    },
+    "layout_31": {
+      "type": "FIXED"
+    },
+    "layout_32": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "3.56%",
+            "top": "50%",
+            "width": "8.5829%",
+            "height": "53px",
+            "right": "2.79%",
+            "bottom": "23.26%"
+          },
+          "widgetId": "widget_18",
+          "setting": {
+            "lockParent": true,
+            "vCenter": true,
+            "hCenter": false,
+            "autoProps": {
+              "width": "CUSTOM",
+              "height": "CUSTOM",
+              "top": false,
+              "bottom": true
+            },
+            "heightMode": "ratio",
+            "aspectRatio": 1
+          },
+          "isPending": false
+        },
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "13.8%",
+            "width": "60.1%",
+            "height": "67.5%",
+            "right": "26.1%",
+            "top": "50%",
+            "bottom": "14px"
+          },
+          "widgetId": "widget_19",
+          "setting": {
+            "lockParent": true,
+            "autoProps": {
+              "width": true,
+              "height": false,
+              "top": true,
+              "bottom": false,
+              "left": false,
+              "right": true
+            },
+            "vCenter": true,
+            "hCenter": false
+          },
+          "isPending": false
+        },
+        "2": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "300px",
+            "top": "32.7%",
+            "width": "20.1%",
+            "height": "34.9%",
+            "right": "4.1%",
+            "bottom": "32.4%"
+          },
+          "widgetId": "widget_20",
+          "setting": {
+            "lockParent": true,
+            "autoProps": {
+              "width": false,
+              "height": false,
+              "left": true,
+              "right": false,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
+        }
+      },
+      "order": [
+        "0",
+        "1",
+        "2"
+      ],
+      "label": "Regular"
+    }
+  },
+  "widgets": {
+    "widget_1": {
+      "id": "widget_1",
+      "uri": "widgets/layout/fixed/",
+      "config": {},
+      "style": {
+        "background": {
+          "image": {
+            "url": ""
+          },
+          "color": "var(--primary-600)"
+        },
+        "boxShadow": {
+          "offsetX": {
+            "distance": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "distance": 2,
+            "unit": "px"
+          },
+          "blur": {
+            "distance": 4,
+            "unit": "px"
+          },
+          "spread": {
+            "distance": 0,
+            "unit": "px"
+          },
+          "color": "rgba(0,0,0,0.5)"
+        }
+      },
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_2"
+        }
+      },
+      "version": "1.7.0",
+      "label": "Fixed Panel 1"
+    },
+    "widget_2": {
+      "id": "widget_2",
+      "uri": "widgets/common/image/",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {
+            "linkType": "NONE",
+            "openType": "_blank",
+            "value": "https://gis.trpa.org/favicon.ico",
+            "expression": null
+          },
+          "scale": "Fit",
+          "imageParam": {
+            "url": "https://gis.trpa.org/favicon.ico",
+            "originalUrl": "https://gis.trpa.org/favicon.ico",
+            "fileName": "favicon.ico",
+            "originalName": "favicon.ico",
+            "imgSourceType": "BY_URL",
+            "cropParam": {
+              "svgViewBox": "0 0 28 28",
+              "svgPath": "M28 14c0 7.732-6.268 14-14 14S0 21.732 0 14 6.268 0 14 0s14 6.268 14 14z",
+              "cropShape": "circle"
+            }
+          },
+          "imageDisplayQualityMode": "ORIGINAL",
+          "imgSourceType": "",
+          "srcExpression": null
+        },
+        "styleConfig": {}
+      },
+      "version": "1.7.0",
+      "label": "Image 1"
+    },
+    "widget_3": {
+      "id": "widget_3",
+      "uri": "widgets/common/text/",
+      "config": {
+        "text": "<p><span style=\"color: var(--light); font-size: 24px;\">Search for Local Plans</span></p>",
+        "style": {
+          "verticalAlign": "center",
+          "wrap": true,
+          "overflow": "scroll",
+          "padding": "p-1"
+        }
+      },
+      "version": "1.7.0",
+      "label": "Text 1"
+    },
+    "widget_6": {
+      "id": "widget_6",
+      "uri": "widgets/layout/sidebar/",
+      "config": {
+        "direction": "HORIZONTAL",
+        "collapseSide": "FIRST",
+        "overlay": false,
+        "size": "398px",
+        "divider": {
+          "visible": true
+        },
+        "resizable": true,
+        "toggleBtn": {
+          "visible": true,
+          "icon": "LEFT",
+          "offsetX": 15,
+          "offsetY": 0,
+          "position": "CENTER",
+          "iconSize": 14,
+          "width": 15,
+          "height": 40,
+          "color": {
+            "normal": {
+              "icon": {
+                "useTheme": true,
+                "color": "var(--primary-700)"
+              },
+              "bg": {
+                "useTheme": true,
+                "color": "var(--light-400)",
+                "opacity": 0.6
+              }
+            },
+            "hover": {
+              "bg": {
+                "useTheme": true,
+                "color": "var(--light-400)"
+              }
+            }
+          },
+          "expandStyle": {
+            "style": {
+              "borderRadius": "0 4px 4px 0"
+            }
+          },
+          "collapseStyle": {
+            "style": {
+              "borderRadius": "0 4px 4px 0"
+            }
+          },
+          "template": "rect"
+        },
+        "defaultState": 1
+      },
+      "layouts": {
+        "FIRST": {
+          "LARGE": "layout_7"
+        },
+        "SECOND": {
+          "LARGE": "layout_14"
+        }
+      },
+      "version": "1.7.0",
+      "label": "Sidebar 1"
+    },
+    "widget_7": {
+      "id": "widget_7",
+      "uri": "widgets/common/list/",
+      "config": {
+        "maxItems": 100,
+        "space": 10,
+        "itemsPerPage": 10,
+        "isItemStyleConfirm": true,
+        "isInitialed": true,
+        "pageStyle": "SCROLL",
+        "itemStyle": "STYLE5",
+        "hoverType": "HOVER0",
+        "selectedStyle": "STYLE0",
+        "differentOddEven": false,
+        "scrollBarOpen": true,
+        "direction": "VERTICAL",
+        "alignType": "CENTER",
+        "scrollStep": 2,
+        "cardConfigs": {
+          "REGULAR": {
+            "cardSize": {
+              "LARGE": {
+                "width": 397.99,
+                "height": 98.89
+              }
+            },
+            "enable": true,
+            "backgroundStyle": {
+              "border": {
+                "type": "solid",
+                "color": "var(--light-400)",
+                "width": "1px"
+              },
+              "background": {
+                "color": "var(--info-100)",
+                "fillType": "fit",
+                "image": {
+                  "url": ""
+                }
+              }
+            },
+            "listLayout": "Custom"
+          },
+          "HOVER": {
+            "cardSize": {
+              "LARGE": {
+                "width": 397.99,
+                "height": 98.89
+              }
+            },
+            "enable": false,
+            "backgroundStyle": {
+              "border": {
+                "type": "solid",
+                "color": "var(--light-400)",
+                "width": "1px"
+              }
+            },
+            "listLayout": "Auto"
+          },
+          "SELECTED": {
+            "cardSize": {
+              "LARGE": {
+                "width": 397.99,
+                "height": 98.89
+              }
+            },
+            "backgroundStyle": {
+              "border": {
+                "type": "solid",
+                "color": "var(--primary-500)",
+                "width": "1px"
+              }
+            },
+            "selectionMode": "SINGLE",
+            "listLayout": "Auto"
+          }
+        },
+        "style": {
+          "id": "default"
+        },
+        "isCheckEmptyTemplate": false,
+        "isShowAutoRefresh": false,
+        "searchOpen": true,
+        "searchHint": "Search by Plan Name, Plan ID, or Plan Type",
+        "sortOpen": true,
+        "filterOpen": false,
+        "showSelectedOnlyOpen": true,
+        "navigatorOpen": true,
+        "sqlExprObj": null,
+        "filters": null,
+        "sortFields": null,
+        "sorts": [
+          {
+            "ruleOptionName": "Sort by Plan Name",
+            "isEditOptionName": false,
+            "rule": [
+              {
+                "jimuFieldName": "PLAN_NAME",
+                "order": "DESC"
+              }
+            ]
+          }
+        ],
+        "searchFields": "PLAN_NAME,PLAN_TYPE,PLAN_ID"
+      },
+      "layouts": {
+        "REGULAR": {
+          "LARGE": "layout_32"
+        },
+        "SELECTED": {},
+        "HOVER": {}
+      },
+      "version": "1.7.0",
+      "label": "Local Plan List",
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_1-1857ac35553-layer-8",
+          "mainDataSourceId": "dataSource_1-1857ac35553-layer-8",
+          "rootDataSourceId": "dataSource_1",
+          "fields": [
+            "PLAN_NAME",
+            "PLAN_TYPE",
+            "PLAN_ID"
+          ]
+        }
+      ],
+      "style": {
+        "background": {
+          "color": "rgba(0,0,0,0)",
+          "fillType": "fit",
+          "image": {
+            "url": ""
+          }
+        }
+      },
+      "outputDataSources": []
+    },
+    "widget_11": {
+      "id": "widget_11",
+      "uri": "widgets/arcgis/arcgis-map/",
+      "config": {
+        "toolConifg": {
+          "canZoom": true,
+          "canHome": true,
+          "canSearch": false,
+          "canLayers": true,
+          "canFullScreen": true,
+          "canScaleBar": true,
+          "canBaseMap": true,
+          "canMeasure": true,
+          "canSelect": true,
+          "canSelectState": true,
+          "canNavigation": false,
+          "canLocate": false,
+          "canCompass": false
+        },
+        "isUseCustomMapState": true,
+        "initialMapState": {
+          "viewPoint": {
+            "rotation": 0,
+            "scale": 577790.554289,
+            "targetGeometry": {
+              "spatialReference": {
+                "latestWkid": 3857,
+                "wkid": 102100
+              },
+              "x": -13360528.177674696,
+              "y": 4730020.488021772
+            }
+          },
+          "extent": {
+            "spatialReference": {
+              "latestWkid": 3857,
+              "wkid": 102100
+            },
+            "xmin": -13395307.025544465,
+            "ymin": 4700821.543216824,
+            "xmax": -13325749.329804927,
+            "ymax": 4759219.432826721
+          },
+          "rotation": 0,
+          "viewType": "2d"
+        },
+        "initialMapDataSourceID": "dataSource_1",
+        "layoutIndex": 1
+      },
+      "layouts": {
+        "MapFixedLayout": {
+          "LARGE": "layout_15"
+        }
+      },
+      "version": "1.7.0",
+      "label": "Map 1",
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_1",
+          "mainDataSourceId": "dataSource_1"
+        }
+      ]
+    },
+    "widget_18": {
+      "uri": "widgets/common/image/",
+      "version": "1.7.0",
+      "label": "Image 3",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "cropParam": {
+              "cropShape": "circle",
+              "svgPath": "M28 14c0 7.732-6.268 14-14 14S0 21.732 0 14 6.268 0 14 0s14 6.268 14 14z",
+              "svgViewBox": "0 0 28 28"
+            }
+          }
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_18",
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_1-1857ac35553-layer-8",
+          "mainDataSourceId": "dataSource_1-1857ac35553-layer-8",
+          "rootDataSourceId": "dataSource_1"
+        }
+      ],
+      "useDataSourcesEnabled": true
+    },
+    "widget_19": {
+      "uri": "widgets/common/text/",
+      "version": "1.7.0",
+      "label": "Text 5",
+      "config": {
+        "text": "<p><strong style=\"color: var(--dark-800); font-size: 16px;\">Plan Name: </strong><span style=\"color: var(--dark-800); font-size: 16px;\">﻿</span><exp data-uniqueid=\"e1122b13_fa68_4c8e_a316_0fa34e1f26cf\" data-dsid=\"dataSource_1-1857ac35553-layer-8\" data-expression=\"%7B%22name%22%3A%22%7BPlan%20Name%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BPlan%20Name%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-1857ac35553-layer-8%22%2C%22jimuFieldName%22%3A%22PLAN_NAME%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">{Plan Name}</span>﻿</exp>  </p><p><strong>Plan ID:</strong> <exp data-uniqueid=\"6e4e6604_3f18_2483_2f57_7ebc73fbe36e\" data-dsid=\"dataSource_1-1857ac35553-layer-8\" data-expression=\"%7B%22name%22%3A%22%7BPlan%20ID%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BPlan%20ID%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-1857ac35553-layer-8%22%2C%22jimuFieldName%22%3A%22PLAN_ID%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">{Plan ID}</span>﻿</exp>  </p><p><strong>Plan Type:</strong> <exp data-uniqueid=\"fe9e905b_bd15_bcc0_8461_517435fd04c3\" data-dsid=\"dataSource_1-1857ac35553-layer-8\" data-expression=\"%7B%22name%22%3A%22%7BPlan%20Type%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BPlan%20Type%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-1857ac35553-layer-8%22%2C%22jimuFieldName%22%3A%22PLAN_TYPE%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">{Plan Type}</span>﻿</exp>  </p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true,
+          "overflow": "scroll",
+          "padding": "p-1"
+        }
+      },
+      "id": "widget_19",
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_1-1857ac35553-layer-8",
+          "mainDataSourceId": "dataSource_1-1857ac35553-layer-8",
+          "rootDataSourceId": "dataSource_1",
+          "fields": [
+            "PLAN_NAME",
+            "PLAN_ID",
+            "PLAN_TYPE"
+          ]
+        }
+      ],
+      "useDataSourcesEnabled": true
+    },
+    "widget_20": {
+      "uri": "widgets/common/button/",
+      "version": "1.7.0",
+      "label": "Button 1",
+      "config": {
+        "functionConfig": {
+          "text": "",
+          "toolTip": "",
+          "linkParam": {
+            "linkType": "WEB_ADDRESS",
+            "openType": "_blank",
+            "value": "",
+            "expression": {
+              "name": "{Plan Document}",
+              "parts": [
+                {
+                  "type": "FIELD",
+                  "exp": "{Plan Document}",
+                  "dataSourceId": "dataSource_1-1857ac35553-layer-8",
+                  "jimuFieldName": "File_URL",
+                  "isFromRepeatedDataSourceContext": true
+                }
+              ]
+            }
+          },
+          "textExpression": {
+            "name": "Plan",
+            "parts": [
+              {
+                "type": "STRING",
+                "exp": "\"Plan\""
+              }
+            ]
+          },
+          "toolTipExpression": {
+            "name": "Open Plan Document",
+            "parts": [
+              {
+                "type": "STRING",
+                "exp": "\"Open Plan Document\""
+              }
+            ]
+          },
+          "icon": {
+            "data": "<svg viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M1.333 0h4c.737 0 1.334.597 1.334 1.333v1.334h8C15.403 2.667 16 3.264 16 4v10.667c0 .736-.597 1.333-1.333 1.333H1.333A1.333 1.333 0 010 14.667V1.333C0 .597.597 0 1.333 0zm0 7.333v7.334h13.334V7.333H1.334zm0-1.333h13.334V4H5.334V1.335h-4V6z\" fill=\"#000\"></path></svg>",
+            "position": "LEFT"
+          }
+        },
+        "styleConfig": {
+          "name": "Default",
+          "themeStyle": {
+            "className": "jimu-widget d-block",
+            "color": "primary",
+            "quickStyleType": "default"
+          },
+          "customStyle": {
+            "regular": {
+              "iconProps": {
+                "color": "var(--black)",
+                "size": 14
+              }
+            },
+            "hover": {
+              "iconProps": {
+                "color": "#f0f0f0",
+                "size": 14
+              }
+            },
+            "clicked": {}
+          },
+          "useCustom": false
+        }
+      },
+      "id": "widget_20",
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_1-1857ac35553-layer-8",
+          "mainDataSourceId": "dataSource_1-1857ac35553-layer-8",
+          "rootDataSourceId": "dataSource_1",
+          "fields": [
+            "File_URL"
+          ]
+        }
+      ],
+      "useDataSourcesEnabled": true,
+      "style": {
+        "boxShadow": {
+          "offsetX": "3px",
+          "offsetY": "3px",
+          "blur": "3px",
+          "spread": "3px",
+          "color": ""
+        },
+        "borderRadius": {
+          "number": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "unit": "px"
+        }
+      }
+    }
+  },
+  "exbVersion": "1.7.0",
+  "mainSizeMode": "LARGE",
+  "theme": "themes/default/",
+  "forBuilderAttributes": {
+    "lockLayout": false
+  },
+  "template": "jewelrybox",
+  "widgetsManifest": {},
+  "views": {},
+  "sections": {},
+  "dialogs": {},
+  "dataSources": {
+    "dataSource_1": {
+      "id": "dataSource_1",
+      "type": "WEB_MAP",
+      "sourceLabel": "Local Plan Search",
+      "itemId": "9b9e39278259440bb54954fcfa73d419",
+      "portalUrl": "https://trpa.maps.arcgis.com"
+    },
+    "widget_57_output_0": {
+      "id": "widget_57_output_0",
+      "type": "FEATURE_LAYER",
+      "label": "ArcGIS World Geocoding Service",
+      "originDataSources": [],
+      "isOutputFromWidget": true,
+      "isDataInDataSourceInstance": false,
+      "schema": {
+        "label": "ArcGIS World Geocoding Service",
+        "idField": "objectid",
+        "fields": {
+          "objectid": {
+            "jimuName": "objectid",
+            "alias": "OBJECTID",
+            "type": "NUMBER",
+            "name": "objectid"
+          },
+          "address": {
+            "jimuName": "address",
+            "alias": "ADDRESS",
+            "type": "STRING",
+            "name": "address"
+          }
+        }
+      },
+      "geometryType": "esriGeometryPoint"
+    },
+    "widget_58_output_0": {
+      "id": "widget_58_output_0",
+      "type": "FEATURE_LAYER",
+      "label": "ArcGIS World Geocoding Service",
+      "originDataSources": [],
+      "isOutputFromWidget": true,
+      "isDataInDataSourceInstance": false,
+      "schema": {
+        "label": "ArcGIS World Geocoding Service",
+        "idField": "objectid",
+        "fields": {
+          "objectid": {
+            "jimuName": "objectid",
+            "alias": "OBJECTID",
+            "type": "NUMBER",
+            "name": "objectid"
+          },
+          "address": {
+            "jimuName": "address",
+            "alias": "ADDRESS",
+            "type": "STRING",
+            "name": "address"
+          }
+        }
+      },
+      "geometryType": "esriGeometryPoint"
+    }
+  },
+  "messageConfigs": {
+    "messageConfig_1": {
+      "id": "messageConfig_1",
+      "widgetId": "widget_7",
+      "messageType": "DATA_RECORDS_SELECTION_CHANGE",
+      "actions": [
+        {
+          "actionId": "widget_11-zoomToFeature-1672802346174",
+          "widgetId": "widget_11",
+          "messageWidgetId": "widget_7",
+          "actionName": "zoomToFeature",
+          "description": null,
+          "config": {
+            "useDataSource": {
+              "dataSourceId": "dataSource_1-1857ac35553-layer-8",
+              "mainDataSourceId": "dataSource_1-1857ac35553-layer-8",
+              "rootDataSourceId": "dataSource_1"
+            },
+            "useDataSources": [
+              {
+                "dataSourceId": "dataSource_1-1857ac35553-layer-8",
+                "mainDataSourceId": "dataSource_1-1857ac35553-layer-8",
+                "rootDataSourceId": "dataSource_1"
+              }
+            ]
+          },
+          "version": "1.7.0"
+        },
+        {
+          "actionId": "widget_11-flash-1672802350662",
+          "widgetId": "widget_11",
+          "messageWidgetId": "widget_7",
+          "actionName": "flash",
+          "description": null,
+          "config": {
+            "messageUseDataSource": {
+              "dataSourceId": "dataSource_1-1857ac35553-layer-8",
+              "mainDataSourceId": "dataSource_1-1857ac35553-layer-8",
+              "rootDataSourceId": "dataSource_1"
+            },
+            "actionUseDataSource": null,
+            "sqlExprObj": null,
+            "enabledDataRelationShip": true
+          },
+          "version": "1.7.0"
+        }
+      ]
+    },
+    "messageConfig_2": {
+      "id": "messageConfig_2",
+      "widgetId": "widget_11",
+      "messageType": "DATA_RECORDS_SELECTION_CHANGE",
+      "actions": [
+        {
+          "actionId": "filter-data-record-action-1661365909080",
+          "messageWidgetId": "widget_11",
+          "actionName": "filter data record action",
+          "description": null,
+          "config": {
+            "messageUseDataSource": null,
+            "actionUseDataSource": null,
+            "sqlExprObj": null,
+            "enabledDataRelationShip": true,
+            "enableQueryWithCurrentExtent": true
+          },
+          "version": "1.7.0"
+        }
+      ]
+    }
+  },
+  "pageStructure": [
+    {
+      "home": []
+    }
+  ],
+  "timestamp": 1672835074825,
+  "header": {
+    "layout": {
+      "LARGE": "layout_31"
+    },
+    "height": {
+      "LARGE": 75
+    }
+  },
+  "attributes": {
+    "portalUrl": "https://trpa.maps.arcgis.com",
+    "isWebTier": false,
+    "clientId": "",
+    "title": "Local Plan Search",
+    "description": "An app to search for a local plan in a map or by name, and then find a link to the corresponding document.",
+    "type": "Web Experience",
+    "thumbnail": null
+  },
+  "sharedThemeVariables": {
+    "header": {},
+    "body": {},
+    "button": {},
+    "logo": {
+      "link": "https://gis.trpa.org/trpalogo.png"
+    }
+  },
+  "customTheme": {
+    "typography": {
+      "fontFamilyBase": "Calibri"
+    },
+    "colors": {
+      "info": "#566c9d",
+      "palette": {
+        "info": {
+          "100": "#d6dce9",
+          "200": "#b5c0d7",
+          "300": "#94a3c5",
+          "400": "#7387b3",
+          "500": "#566c9d",
+          "600": "#45577f",
+          "700": "#354260",
+          "800": "#242d42",
+          "900": "#131823"
+        },
+        "primary": {
+          "100": "#60b5f5",
+          "200": "#309ff2",
+          "300": "#0e86e1",
+          "400": "#0b6ab1",
+          "500": "#084d81",
+          "600": "#07426e",
+          "700": "#06365b",
+          "800": "#042b47",
+          "900": "#031f34"
+        }
+      },
+      "primary": "#084d81"
+    }
+  }
+}
