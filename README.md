@@ -2,6 +2,6 @@
 
 ### [Permit Review](https://gis.trpa.org/PermitReview)
 
-### [Local Plan Search](Local Plan Search/index.html)
+### [Local Plan Search]([Local Plan Search/index.html](https://gis.trpa.org/LocalPlanSearch/))
 
 ### [BMP Mapping Tool](https://gis.trpa.org/bmpmappingtool)
