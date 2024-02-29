@@ -16,15 +16,13 @@
 
 ## Archived Apps
 ### Permissible Use
- * [Dev Site]()
- * [Production Site]()
+ * [Dev Site](https://trpa-agency.github.io/ExperienceBuilderApps/PermissibleUse)
 
 ### Proposed Trails
- * [Dev Site]()
- * [Production Site]()
- * 
+ * [Dev Site](https://trpa-agency.github.io/ExperienceBuilderApps/ProposedTrails)
+   
 ### Zoning
- * [Dev Site]()
- * [Production Site]()
+ * [Dev Site](https://trpa-agency.github.io/ExperienceBuilderApps/Zoning)
+ * [Production Site](https://gis.trpa.org/Zoning/)
 
 
