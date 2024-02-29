@@ -5,9 +5,9 @@
   * [Production Site](https://gis.trpa.org/PermitReview)
 
 ### Local Plan Search
-  * [Dev Site](https://trpa-agency.github.io/ExperienceBuilderApps/Local Plan Search/index.html)
+  * [Dev Site](https://trpa-agency.github.io/ExperienceBuilderApps/LocalPlanSearch/index.html)
   * [Production Site](https://gis.trpa.org/LocalPlanSearch/)
 
 ### BMP Mapping Tool
-  * [Dev Site](https://trpa-agency.github.io/ExperienceBuilderAppsBMPMap/index.html)
+  * [Dev Site](https://trpa-agency.github.io/ExperienceBuilderApps/BMPMap/index.html)
   * [Production Site](https://gis.trpa.org/bmpmappingtool)
