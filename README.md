@@ -1,13 +1,13 @@
 ## TRPA's Repository for apps built with ESRI's Expereience Builder
 
 ### Permit Review
-  * [Dev Site](PermitReview/index.html)
+  * [Dev Site](https://trpa-agency.github.io/ExperienceBuilderApps/PermitReview/index.html)
   * [Production Site](https://gis.trpa.org/PermitReview)
 
 ### Local Plan Search
-  * [Dev Site](Local Plan Search/index.html)
+  * [Dev Site](https://trpa-agency.github.io/ExperienceBuilderApps/Local Plan Search/index.html)
   * [Production Site](https://gis.trpa.org/LocalPlanSearch/)
 
 ### BMP Mapping Tool
-  * [Dev Site](BMPMap/index.html)
+  * [Dev Site](https://trpa-agency.github.io/ExperienceBuilderAppsBMPMap/index.html)
   * [Production Site](https://gis.trpa.org/bmpmappingtool)
