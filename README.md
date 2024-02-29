@@ -1,5 +1,5 @@
 # TRPA's Repository for apps built with ESRI's Expereience Builder
-
+ > The ExB Apps are built on \\arc10\C$\GIS\ExperienceBuilder\CurrentVersion. To deploy those apps use the command prompt as an Administrator with the following commands <em>cd 
 ## Apps in Production
 
 ### BMP Mapping Tool
