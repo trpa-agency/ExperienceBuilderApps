@@ -14,19 +14,17 @@
   * [Dev Site](https://trpa-agency.github.io/ExperienceBuilderApps/PermitReview/index.html)
   * [Production Site](https://gis.trpa.org/PermitReview)
 
+## Archived Apps
 ### Permissible Use
  * [Dev Site]()
  * [Production Site]()
 
 ### Proposed Trails
  * [Dev Site]()
- * [Production Site]
-
+ * [Production Site]()
+ * 
 ### Zoning
  * [Dev Site]()
  * [Production Site]()
-
-## Archived Apps
-
 
 
