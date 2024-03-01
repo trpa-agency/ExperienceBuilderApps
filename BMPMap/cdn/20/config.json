@@ -41,10 +41,28 @@
             "vCenter": false,
             "hCenter": false
           }
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_237",
+          "bbox": {
+            "width": "480px",
+            "height": "104px",
+            "left": "50%",
+            "right": "0px",
+            "top": "50%",
+            "bottom": "0px"
+          },
+          "setting": {
+            "vCenter": true,
+            "hCenter": true
+          },
+          "isPending": true
         }
       },
       "order": [
-        "0"
+        "0",
+        "1"
       ]
     },
     "layout_1": {
@@ -196,17 +214,20 @@
       "setting": {
         "padding": {
           "number": [
-            20
+            10,
+            10,
+            10,
+            10
           ],
           "unit": "px"
-        }
+        },
+        "space": 10
       },
       "order": [
         "27",
         "9",
         "33",
-        "32",
-        "34"
+        "35"
       ],
       "content": {
         "9": {
@@ -234,34 +255,31 @@
           },
           "widgetId": "widget_134"
         },
-        "32": {
-          "type": "WIDGET",
-          "widgetId": "widget_225",
-          "bbox": {
-            "width": "460px",
-            "height": "475px"
-          },
-          "setting": {
-            "heightMode": "ratio",
-            "aspectRatio": "100:100"
-          }
-        },
         "33": {
           "type": "WIDGET",
           "widgetId": "widget_226",
           "bbox": {
             "width": "460px",
             "height": 30
+          },
+          "setting": {
+            "autoProps": {
+              "height": "AUTO"
+            }
           }
         },
-        "34": {
+        "35": {
           "type": "WIDGET",
-          "widgetId": "widget_229",
+          "widgetId": "widget_225",
           "bbox": {
-            "width": "460px",
-            "height": "475px"
+            "width": "480px",
+            "height": "104px"
           },
-          "isPending": true
+          "setting": {
+            "autoProps": {
+              "height": "AUTO"
+            }
+          }
         }
       },
       "label": "Default"
@@ -341,10 +359,10 @@
           "bbox": {
             "left": "0.0%",
             "right": "0.0%",
-            "top": "10.0%",
+            "top": "9.8%",
             "bottom": "0.0%",
             "width": "100.0%",
-            "height": "90.0%"
+            "height": "90.2%"
           },
           "widgetId": "widget_70",
           "setting": {
@@ -426,78 +444,38 @@
       "setting": {
         "padding": {
           "number": [
-            20
+            10,
+            10,
+            10,
+            10
           ],
           "unit": "px"
-        }
+        },
+        "space": 0,
+        "justifyContent": "flex-start"
       },
       "content": {
-        "1": {
-          "type": "WIDGET",
-          "bbox": {
-            "width": "559px",
-            "height": 59
-          },
-          "widgetId": "widget_71"
-        },
         "6": {
           "type": "WIDGET",
           "bbox": {
             "width": "559px",
             "height": 369
           },
-          "widgetId": "widget_72"
-        }
-      },
-      "order": [
-        "1",
-        "6"
-      ],
-      "label": "Default"
-    },
-    "layout_35": {
-      "type": "ROW",
-      "setting": {
-        "space": 20,
-        "style": {
-          "padding": {
-            "number": [
-              0,
-              0,
-              10,
-              0
-            ],
-            "unit": "px"
-          }
-        }
-      },
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "bbox": {
-            "left": 0,
-            "width": 12,
-            "height": "54px"
-          },
-          "widgetId": "widget_210",
+          "widgetId": "widget_72",
           "setting": {
-            "autoProps": {
-              "width": "AUTO",
-              "height": "AUTO"
-            }
+            "heightMode": "ratio",
+            "aspectRatio": "100:100"
           }
         },
-        "1": {
+        "7": {
           "type": "WIDGET",
+          "widgetId": "widget_210",
           "bbox": {
-            "left": 6,
-            "width": 6,
+            "width": "560px",
             "height": "54px"
           },
-          "widgetId": "widget_233",
           "setting": {
             "autoProps": {
-              "width": "AUTO",
               "height": "AUTO"
             }
           },
@@ -505,15 +483,15 @@
         }
       },
       "order": [
-        "0",
-        "1"
+        "7",
+        "6"
       ],
       "label": "Default"
     },
     "layout_37": {
       "type": "ROW",
       "setting": {
-        "space": 20,
+        "space": 10,
         "style": {
           "padding": {
             "number": [
@@ -528,38 +506,39 @@
       },
       "content": {
         "0": {
-          "type": "WIDGET",
-          "widgetId": "widget_229",
-          "setting": {
-            "autoProps": {
-              "height": "AUTO"
-            }
-          },
-          "bbox": {
-            "left": 0,
-            "width": 12,
-            "height": "369px"
-          }
-        },
-        "1": {
-          "type": "WIDGET",
-          "widgetId": "widget_232",
           "setting": {
             "autoProps": {
               "height": "STRETCH"
             }
           },
           "bbox": {
-            "left": 6,
-            "width": 6,
-            "height": "369px"
+            "left": 0,
+            "width": 12,
+            "height": "410px"
+          },
+          "type": "WIDGET",
+          "widgetId": "widget_236",
+          "isPending": false
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_215",
+          "setting": {
+            "autoProps": {
+              "height": "STRETCH"
+            }
+          },
+          "bbox": {
+            "left": 0,
+            "width": 2,
+            "height": 400
           },
           "isPending": true
         }
       },
       "order": [
-        "0",
-        "1"
+        "1",
+        "0"
       ],
       "label": "Default"
     },
@@ -648,10 +627,13 @@
               "left": false,
               "top": false,
               "bottom": true,
-              "width": "STRETCH"
+              "width": "STRETCH",
+              "height": {}
             },
             "hCenter": false,
-            "vCenter": false
+            "vCenter": false,
+            "heightMode": "ratio",
+            "aspectRatio": 0.13
           }
         },
         "1": {
@@ -676,33 +658,11 @@
             "hCenter": false,
             "vCenter": false
           }
-        },
-        "2": {
-          "type": "WIDGET",
-          "widgetId": "widget_233",
-          "bbox": {
-            "left": "50%",
-            "right": "0.0%",
-            "top": "20.0%",
-            "bottom": "69.2%",
-            "width": "100.0%",
-            "height": "10.8%"
-          },
-          "setting": {
-            "autoProps": {
-              "right": true,
-              "left": false,
-              "top": false,
-              "bottom": true
-            },
-            "hCenter": true
-          }
         }
       },
       "order": [
         "0",
-        "1",
-        "2"
+        "1"
       ],
       "label": "First"
     },
@@ -784,7 +744,11 @@
             "width": "500px",
             "height": "356.00px"
           },
-          "widgetId": "widget_77"
+          "widgetId": "widget_77",
+          "setting": {
+            "heightMode": "ratio",
+            "aspectRatio": "100:100"
+          }
         }
       },
       "order": [
@@ -811,18 +775,16 @@
       "content": {
         "0": {
           "type": "WIDGET",
-          "widgetId": "widget_229",
+          "widgetId": "widget_235",
           "setting": {
             "autoProps": {
               "height": "AUTO"
-            },
-            "heightMode": "ratio",
-            "aspectRatio": "100:100"
+            }
           },
           "bbox": {
             "left": 0,
             "width": 12,
-            "height": 355.98553466796875
+            "height": "32px"
           }
         }
       },
@@ -954,7 +916,9 @@
     },
     "layout_93": {
       "type": "FIXED",
-      "label": "Map FixedLayout"
+      "label": "Map FixedLayout",
+      "content": {},
+      "order": []
     },
     "layout_94": {
       "label": "Controller layout",
@@ -986,57 +950,57 @@
       "type": "FIXED",
       "label": "Map FixedLayout"
     },
-    "layout_97": {
-      "label": "Controller layout",
-      "order": [
-        "0",
-        "4"
-      ],
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "bbox": {
-            "left": "NaNpx",
-            "right": "NaNpx",
-            "top": "NaNpx",
-            "bottom": "NaNpx",
-            "width": "400px",
-            "height": "400px"
-          },
-          "widgetId": "widget_234"
-        },
-        "4": {
-          "type": "WIDGET",
-          "widgetId": "widget_235",
-          "bbox": {}
-        }
-      }
+    "layout_99": {
+      "type": "FIXED",
+      "label": "Map FixedLayout"
     },
-    "layout_98": {
-      "label": "Controller layout",
-      "order": [
-        "0",
-        "4"
-      ],
+    "layout_100": {
       "content": {
         "0": {
           "type": "WIDGET",
+          "widgetId": "widget_225",
           "bbox": {
-            "left": "NaNpx",
-            "right": "NaNpx",
-            "top": "NaNpx",
-            "bottom": "NaNpx",
-            "width": "400px",
-            "height": "400px"
+            "width": "560px",
+            "height": 209
           },
-          "widgetId": "widget_234"
+          "setting": {
+            "heightMode": "ratio",
+            "aspectRatio": "NaN:null",
+            "autoProps": {
+              "width": "STRETCH"
+            }
+          },
+          "isPending": true
         },
-        "4": {
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_226",
+          "bbox": {
+            "width": "560px",
+            "height": "27.00px"
+          },
+          "setting": {
+            "heightMode": "ratio",
+            "aspectRatio": 0.05
+          },
+          "isPending": true
+        },
+        "2": {
           "type": "WIDGET",
           "widgetId": "widget_235",
-          "bbox": {}
+          "bbox": {
+            "width": "560px",
+            "height": 130
+          }
         }
-      }
+      },
+      "type": "COLUMN",
+      "label": "Default",
+      "order": [
+        "1",
+        "0",
+        "2"
+      ]
     }
   },
   "exbVersion": "1.13.0",
@@ -1155,7 +1119,7 @@
           }
         }
       },
-      "label": "Row"
+      "label": "Header Row"
     },
     "widget_5": {
       "uri": "widgets/common/image/",
@@ -1205,11 +1169,17 @@
       "uri": "widgets/layout/column/",
       "version": "1.13.0",
       "config": {
-        "space": 10,
+        "space": {
+          "distance": 10,
+          "unit": "px"
+        },
         "style": {
           "padding": {
             "number": [
-              20
+              10,
+              10,
+              10,
+              10
             ],
             "unit": "px"
           },
@@ -1241,7 +1211,7 @@
         "direction": "VERTICAL",
         "collapseSide": "FIRST",
         "overlay": false,
-        "size": "515px",
+        "size": "357px",
         "divider": {
           "visible": true,
           "lineStyle": {
@@ -1331,17 +1301,23 @@
           }
         }
       },
-      "label": "Row 4"
+      "label": "Header Row tablet"
     },
     "widget_70": {
       "uri": "widgets/layout/column/",
       "version": "1.13.0",
       "config": {
-        "space": 10,
+        "space": {
+          "distance": 0,
+          "unit": "px"
+        },
         "style": {
           "padding": {
             "number": [
-              20
+              10,
+              10,
+              10,
+              10
             ],
             "unit": "px"
           },
@@ -1365,28 +1341,6 @@
         }
       },
       "label": "Column 2"
-    },
-    "widget_71": {
-      "uri": "widgets/layout/row/",
-      "version": "1.13.0",
-      "config": {
-        "space": 10,
-        "style": {
-          "padding": {
-            "number": [
-              10
-            ],
-            "unit": "px"
-          }
-        }
-      },
-      "id": "widget_71",
-      "layouts": {
-        "DEFAULT": {
-          "MEDIUM": "layout_35"
-        }
-      },
-      "label": "Row 5"
     },
     "widget_72": {
       "uri": "widgets/layout/row/",
@@ -1417,7 +1371,7 @@
         "direction": "VERTICAL",
         "collapseSide": "FIRST",
         "overlay": false,
-        "size": "336px",
+        "size": "238px",
         "divider": {
           "visible": true,
           "lineStyle": {
@@ -1507,7 +1461,7 @@
           }
         }
       },
-      "label": "Row 7"
+      "label": "Header Row phone"
     },
     "widget_75": {
       "uri": "widgets/layout/column/",
@@ -1570,7 +1524,7 @@
     "widget_119": {
       "uri": "widgets/common/search/",
       "version": "1.13.0",
-      "label": "Search",
+      "label": "Search (full)",
       "config": {
         "searchResultView": "Result_Panel",
         "arrangementStyle": "Style1",
@@ -2109,7 +2063,7 @@
     "widget_133": {
       "uri": "widgets/arcgis/arcgis-map/",
       "version": "1.13.0",
-      "label": "BMP Map",
+      "label": "Map Full Screen",
       "config": {
         "toolConfig": {
           "canZoom": true,
@@ -2146,7 +2100,7 @@
     "widget_134": {
       "uri": "widgets/common/controller/",
       "version": "1.13.0",
-      "label": "Widget Controller",
+      "label": "Widget Controller (Full)",
       "config": {
         "behavior": {
           "onlyOpenOne": true,
@@ -2722,7 +2676,7 @@
     "widget_209": {
       "uri": "widgets/arcgis/arcgis-map/",
       "version": "1.13.0",
-      "label": "Map",
+      "label": "Map Tablet",
       "config": {
         "toolConfig": {
           "canZoom": true,
@@ -2731,8 +2685,8 @@
           "canNavigation": true,
           "canMeasure": false,
           "canBaseMap": true,
-          "canSelect": true,
-          "canSelectState": true,
+          "canSelect": false,
+          "canSelectState": false,
           "canLayers": true
         },
         "isUseCustomMapState": false,
@@ -2756,7 +2710,7 @@
     "widget_210": {
       "uri": "widgets/common/controller/",
       "version": "1.13.0",
-      "label": "Widget Controller 2",
+      "label": "Tablet Widget Controller",
       "config": {
         "behavior": {
           "onlyOpenOne": true,
@@ -2774,8 +2728,8 @@
             "labelGrowth": 10,
             "avatar": {
               "type": "primary",
-              "size": "sm",
-              "shape": "circle"
+              "size": "default",
+              "shape": "rectangle"
             }
           }
         }
@@ -2830,7 +2784,7 @@
     "widget_215": {
       "uri": "widgets/arcgis/arcgis-map/",
       "version": "1.13.0",
-      "label": "Map 2",
+      "label": "Map Phone",
       "config": {
         "toolConfig": {
           "canZoom": true,
@@ -2848,7 +2802,8 @@
       "id": "widget_215",
       "layouts": {
         "MapFixedLayout": {
-          "SMALL": "layout_96"
+          "SMALL": "layout_96",
+          "MEDIUM": "layout_99"
         }
       },
       "useDataSources": [
@@ -2990,7 +2945,6 @@
             "outputDataSourceId": "widget_225_output_44252606763488345",
             "spatialRelationUseDataSources": [],
             "useAttributeFilter": false,
-            "spatialFilterLabel": "",
             "spatialMapWidgetIds": [
               "widget_133"
             ],
@@ -3028,6 +2982,50 @@
               "EXISTING_LANDUSE",
               "OWNERSHIP_TYPE"
             ]
+          },
+          {
+            "configId": "6325679104741193",
+            "name": "Search by Area Wide",
+            "useDataSource": {
+              "dataSourceId": "dataSource_2-BMP_Status_2611-5",
+              "mainDataSourceId": "dataSource_2-BMP_Status_2611-5",
+              "rootDataSourceId": "dataSource_2",
+              "fields": [
+                "AreaWidePlanName"
+              ]
+            },
+            "outputDataSourceId": "widget_225_output_6325679104741193",
+            "spatialRelationUseDataSources": [],
+            "sqlExprObj": {
+              "logicalOperator": "AND",
+              "parts": [
+                {
+                  "type": "SINGLE",
+                  "jimuFieldName": "AreaWidePlanName",
+                  "operator": "STRING_OPERATOR_IS",
+                  "valueOptions": {
+                    "isValid": true,
+                    "sourceType": "UNIQUE",
+                    "inputEditor": "SIMPLE_SELECT",
+                    "value": null
+                  },
+                  "displayType": "USE_ASK_FOR_VALUE",
+                  "askForValueOptions": {
+                    "label": null,
+                    "display": "BLOCK",
+                    "hint": "",
+                    "cascade": "NONE"
+                  },
+                  "displayLabel": null,
+                  "caseSensitive": false
+                }
+              ],
+              "sql": "",
+              "displaySQL": "(Area Wide Plan Name = ?)"
+            },
+            "useSpatialFilter": false,
+            "attributeFilterLabel": "",
+            "resultExpandByDefault": true
           }
         ],
         "arrangeType": "BLOCK",
@@ -3116,7 +3114,8 @@
       },
       "outputDataSources": [
         "widget_225_output_9472506799541298",
-        "widget_225_output_44252606763488345"
+        "widget_225_output_44252606763488345",
+        "widget_225_output_6325679104741193"
       ],
       "useDataSources": [
         {
@@ -3124,7 +3123,8 @@
           "mainDataSourceId": "dataSource_2-BMP_Status_2611-5",
           "rootDataSourceId": "dataSource_2",
           "fields": [
-            "Catchment"
+            "Catchment",
+            "AreaWidePlanName"
           ],
           "useFieldsInPopupInfo": true
         }
@@ -3135,7 +3135,7 @@
       "version": "1.13.0",
       "label": "Text 2",
       "config": {
-        "text": "<p><strong>Query Parcels by Catchment, Area Wide, or by drawing a Project Area</strong></p>",
+        "text": "<p style=\"text-align: center;\"><strong>Query Parcels by Catchment, Area Wide, OR by drawing a Project Area</strong></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -3239,230 +3239,6 @@
         "widget_133"
       ]
     },
-    "widget_229": {
-      "uri": "widgets/arcgis/query/",
-      "version": "1.13.0",
-      "label": "Query 3",
-      "config": {
-        "queryItems": [
-          {
-            "configId": "9472506799541298",
-            "name": "Search by Catchment",
-            "useDataSource": {
-              "dataSourceId": "dataSource_2-BMP_Status_2611-5",
-              "mainDataSourceId": "dataSource_2-BMP_Status_2611-5",
-              "rootDataSourceId": "dataSource_2",
-              "fields": [
-                "Catchment"
-              ]
-            },
-            "outputDataSourceId": "widget_225_output_9472506799541298",
-            "spatialRelationUseDataSources": [],
-            "sqlExprObj": {
-              "logicalOperator": "AND",
-              "parts": [
-                {
-                  "type": "SINGLE",
-                  "jimuFieldName": "Catchment",
-                  "operator": "STRING_OPERATOR_IS",
-                  "valueOptions": {
-                    "isValid": true,
-                    "sourceType": "UNIQUE",
-                    "inputEditor": "SIMPLE_SELECT",
-                    "value": null
-                  },
-                  "displayType": "USE_ASK_FOR_VALUE",
-                  "askForValueOptions": {
-                    "label": null,
-                    "display": "BLOCK",
-                    "hint": "",
-                    "cascade": "NONE"
-                  },
-                  "displayLabel": null,
-                  "caseSensitive": false
-                }
-              ],
-              "sql": "",
-              "displaySQL": "(Catchment = ?)"
-            },
-            "attributeFilterLabel": "",
-            "useSpatialFilter": false,
-            "resultExpandByDefault": true
-          },
-          {
-            "configId": "44252606763488345",
-            "name": "Search by Drawing",
-            "useDataSource": {
-              "dataSourceId": "dataSource_2-BMP_Status_2611-5",
-              "mainDataSourceId": "dataSource_2-BMP_Status_2611-5",
-              "rootDataSourceId": "dataSource_2"
-            },
-            "outputDataSourceId": "widget_225_output_44252606763488345",
-            "spatialRelationUseDataSources": [],
-            "useAttributeFilter": false,
-            "spatialFilterLabel": "",
-            "spatialMapWidgetIds": [
-              null
-            ],
-            "spatialFilterTypes": [
-              "InteractiveDrawMode"
-            ],
-            "spatialInteractiveCreateToolTypes": [
-              "Polygon",
-              "Rectangle",
-              "Circle"
-            ],
-            "resultFieldsType": "SelectAttributes",
-            "resultDisplayFields": [
-              "APN",
-              "JURISDICTION",
-              "CertificateIssued",
-              "EvaluationComplete",
-              "SourceCertIssued",
-              "CertDate",
-              "CertReissuedDate",
-              "LandUse",
-              "BMPStatus",
-              "Catchment",
-              "SourceCertDate",
-              "SiteConstraint",
-              "ParcelStreet",
-              "CreditPercent",
-              "AreaWide",
-              "CreditArea",
-              "Rvkd",
-              "TMDL_LandUse",
-              "SourceCertReissuedDate",
-              "SourceCertNo",
-              "CertNo",
-              "EXISTING_LANDUSE",
-              "OWNERSHIP_TYPE"
-            ]
-          }
-        ],
-        "arrangeType": "BLOCK",
-        "arrangeWrap": false,
-        "resultListDirection": "Vertical",
-        "resultPagingStyle": "MultiPage",
-        "sizeMap": {
-          "arrangementIconPopper": {
-            "minSize": {
-              "width": 300,
-              "height": 300
-            },
-            "defaultSize": {
-              "width": 360,
-              "height": 480
-            }
-          }
-        },
-        "defaultPageSize": 100
-      },
-      "id": "widget_229",
-      "dataActions": {
-        "showOnMap": {
-          "config": {
-            "isUseCustomSymbol": true,
-            "symbolOption": {
-              "pointSymbol": {
-                "type": "esriSMS",
-                "color": [
-                  255,
-                  255,
-                  0,
-                  150
-                ],
-                "angle": 0,
-                "xoffset": 0,
-                "yoffset": 0,
-                "size": 12,
-                "style": "esriSMSCircle",
-                "outline": {
-                  "type": "esriSLS",
-                  "color": [
-                    255,
-                    255,
-                    0,
-                    150
-                  ],
-                  "width": 1,
-                  "style": "esriSLSSolid"
-                }
-              },
-              "polylineSymbol": {
-                "type": "esriSLS",
-                "color": [
-                  255,
-                  255,
-                  0,
-                  150
-                ],
-                "width": 0.75,
-                "style": "esriSLSSolid"
-              },
-              "polygonSymbol": {
-                "type": "esriSFS",
-                "color": [
-                  255,
-                  255,
-                  0,
-                  150
-                ],
-                "outline": {
-                  "type": "esriSLS",
-                  "color": [
-                    255,
-                    255,
-                    0,
-                    150
-                  ],
-                  "width": 1,
-                  "style": "esriSLSSolid"
-                },
-                "style": "esriSFSSolid"
-              }
-            }
-          }
-        }
-      },
-      "outputDataSources": [
-        "widget_225_output_9472506799541298",
-        "widget_225_output_44252606763488345"
-      ],
-      "useDataSources": [
-        {
-          "dataSourceId": "dataSource_2-BMP_Status_2611-5",
-          "mainDataSourceId": "dataSource_2-BMP_Status_2611-5",
-          "rootDataSourceId": "dataSource_2",
-          "fields": [
-            "Catchment",
-            "APN",
-            "JURISDICTION",
-            "CertificateIssued",
-            "EvaluationComplete",
-            "SourceCertIssued",
-            "CertDate",
-            "CertReissuedDate",
-            "LandUse",
-            "BMPStatus",
-            "SourceCertDate",
-            "SiteConstraint",
-            "ParcelStreet",
-            "CreditPercent",
-            "AreaWide",
-            "CreditArea",
-            "Rvkd",
-            "TMDL_LandUse",
-            "SourceCertReissuedDate",
-            "SourceCertNo",
-            "CertNo",
-            "EXISTING_LANDUSE",
-            "OWNERSHIP_TYPE"
-          ],
-          "useFieldsInPopupInfo": true
-        }
-      ]
-    },
     "widget_231": {
       "uri": "widgets/common/text/",
       "version": "1.13.0",
@@ -3483,7 +3259,7 @@
       },
       "label": "Info",
       "config": {
-        "text": "<p>Welcome to the Tahoe Best Management Practices (BMP) Mapping Tool  </p><p><br></p><p>The BMP Map Viewer can be used to  </p><ul><li>View visible layers in a legend and turn on or off APN Labels, Catchments, and uploaded shapefiles </li><li>Locate and zoom to&nbsp;an area by entering in an address (or part off) or APN.  </li><li>Select parcels&nbsp;by drawing an area or entering catchment name  </li><li>Export the attributes of&nbsp;a selection to excel </li></ul>",
+        "text": "<p>Welcome to the Tahoe Best Management Practices (BMP) Mapping Tool  </p><p><br></p><p>The BMP Map Viewer can be used to  </p><ul><li>View visible layers in a legend and turn on or off APN Labels, Catchments, and uploaded shapefiles </li><li>Locate and zoom to&nbsp;an area by entering in an address (or part off) or APN.  </li><li>Select parcels&nbsp;by drawing an area or entering catchment name  </li><li>Export the attributes of&nbsp;a selection to Excel </li></ul>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -3491,10 +3267,62 @@
       },
       "id": "widget_231"
     },
-    "widget_232": {
+    "widget_235": {
+      "uri": "widgets/common/text/",
+      "version": "1.13.0",
+      "icon": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"#000\" d=\"M8 5.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2ZM6.5 7.5A.5.5 0 0 1 7 7h1.5v4.5h1a.5.5 0 0 1 0 1h-3a.5.5 0 0 1 0-1h1V8H7a.5.5 0 0 1-.5-.5Z\"></path><path fill=\"#000\" fill-rule=\"evenodd\" d=\"M8 16A8 8 0 1 1 8 0a8 8 0 0 1 0 16Zm0-1A7 7 0 1 0 8 1a7 7 0 0 0 0 14Z\" clip-rule=\"evenodd\"></path></svg>",
+        "properties": {
+          "filename": "Info",
+          "originalName": "outlined/suggested/info.svg",
+          "path": [
+            "general",
+            "info"
+          ],
+          "color": "var(--secondary-100)",
+          "size": 16,
+          "inlineSvg": true,
+          "isUploaded": false
+        }
+      },
+      "label": "Info",
+      "config": {
+        "text": "<p>Welcome to the Tahoe Best Management Practices (BMP) Mapping Tool  </p><p><br></p><p><strong style=\"font-size: 15px;\">To access all features of the website, we recommend using a larger device. The website's tools and functionality may be limited when accessed on a mobile device.</strong></p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_235"
+    },
+    "widget_236": {
+      "uri": "widgets/layout/column/",
+      "version": "1.13.0",
+      "label": "Column 4",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "space": [
+              10
+            ],
+            "unit": "px"
+          },
+          "justifyContent": "flex-start",
+          "alignItems": "stretch"
+        }
+      },
+      "id": "widget_236",
+      "layouts": {
+        "DEFAULT": {
+          "MEDIUM": "layout_100"
+        }
+      }
+    },
+    "widget_237": {
       "uri": "widgets/arcgis/query/",
       "version": "1.13.0",
-      "label": "Query 4",
+      "label": "Query Tool 2",
       "config": {
         "queryItems": [
           {
@@ -3542,48 +3370,6 @@
             "resultExpandByDefault": true
           },
           {
-            "configId": "8126641555611747",
-            "name": "Search by Area Wide",
-            "useDataSource": {
-              "dataSourceId": "dataSource_2-BMP_Status_2611-5",
-              "mainDataSourceId": "dataSource_2-BMP_Status_2611-5",
-              "rootDataSourceId": "dataSource_2",
-              "fields": [
-                "AreaWide"
-              ]
-            },
-            "outputDataSourceId": "widget_225_output_8126641555611747",
-            "spatialRelationUseDataSources": [],
-            "useSpatialFilter": false,
-            "sqlExprObj": {
-              "logicalOperator": "AND",
-              "parts": [
-                {
-                  "type": "SINGLE",
-                  "jimuFieldName": "AreaWide",
-                  "operator": "NUMBER_OPERATOR_IS",
-                  "valueOptions": {
-                    "isValid": true,
-                    "sourceType": "UNIQUE",
-                    "inputEditor": "SIMPLE_SELECT",
-                    "value": null
-                  },
-                  "displayType": "USE_ASK_FOR_VALUE",
-                  "askForValueOptions": {
-                    "label": null,
-                    "display": "BLOCK",
-                    "hint": "",
-                    "cascade": "NONE"
-                  },
-                  "displayLabel": null,
-                  "caseSensitive": false
-                }
-              ],
-              "sql": "",
-              "displaySQL": "(AreaWide = ?)"
-            }
-          },
-          {
             "configId": "44252606763488345",
             "name": "Search by Drawing",
             "useDataSource": {
@@ -3606,7 +3392,7 @@
               "Rectangle",
               "Circle"
             ],
-            "resultFieldsType": "SelectAttributes",
+            "resultFieldsType": "PopupSetting",
             "resultDisplayFields": [
               "APN",
               "JURISDICTION",
@@ -3651,7 +3437,7 @@
           }
         }
       },
-      "id": "widget_232",
+      "id": "widget_237",
       "dataActions": {
         "showOnMap": {
           "config": {
@@ -3718,147 +3504,18 @@
           }
         }
       },
-      "outputDataSources": [
-        "dataSource_6",
-        "dataSource_7",
-        "dataSource_8"
-      ],
+      "outputDataSources": [],
       "useDataSources": [
         {
           "dataSourceId": "dataSource_2-BMP_Status_2611-5",
           "mainDataSourceId": "dataSource_2-BMP_Status_2611-5",
           "rootDataSourceId": "dataSource_2",
           "fields": [
-            "Catchment",
-            "AreaWide",
-            "APN",
-            "JURISDICTION",
-            "CertificateIssued",
-            "EvaluationComplete",
-            "SourceCertIssued",
-            "CertDate",
-            "CertReissuedDate",
-            "LandUse",
-            "BMPStatus",
-            "SourceCertDate",
-            "SiteConstraint",
-            "ParcelStreet",
-            "CreditPercent",
-            "CreditArea",
-            "Rvkd",
-            "TMDL_LandUse",
-            "SourceCertReissuedDate",
-            "SourceCertNo",
-            "CertNo",
-            "EXISTING_LANDUSE",
-            "OWNERSHIP_TYPE"
+            "Catchment"
           ],
           "useFieldsInPopupInfo": true
         }
       ]
-    },
-    "widget_233": {
-      "uri": "widgets/common/controller/",
-      "version": "1.13.0",
-      "label": "Widget Controller 3",
-      "config": {
-        "behavior": {
-          "onlyOpenOne": true,
-          "openStarts": [],
-          "displayType": "STACK",
-          "vertical": false,
-          "size": {},
-          "arrangement": "floating"
-        },
-        "appearance": {
-          "space": 0,
-          "advanced": false,
-          "card": {
-            "showLabel": false,
-            "labelGrowth": 10,
-            "avatar": {
-              "type": "primary",
-              "size": "sm",
-              "shape": "circle"
-            }
-          }
-        }
-      },
-      "id": "widget_233",
-      "layouts": {
-        "controller": {
-          "MEDIUM": "layout_97",
-          "SMALL": "layout_98"
-        }
-      }
-    },
-    "widget_234": {
-      "uri": "widgets/common/add-data/",
-      "version": "1.13.0",
-      "label": "Add Data",
-      "config": {
-        "itemCategoriesInfo": [
-          {
-            "type": "MY_CONTENT",
-            "customLabel": "",
-            "enabled": true,
-            "id": "MY_CONTENT"
-          },
-          {
-            "type": "MY_GROUP",
-            "customLabel": "",
-            "enabled": true,
-            "id": "MY_GROUP"
-          },
-          {
-            "type": "MY_ORGANIZATION",
-            "customLabel": "",
-            "enabled": true,
-            "id": "MY_ORGANIZATION"
-          },
-          {
-            "type": "PUBLIC",
-            "customLabel": "",
-            "enabled": true,
-            "id": "PUBLIC"
-          },
-          {
-            "type": "LIVING_ATLAS",
-            "customLabel": "",
-            "enabled": true,
-            "id": "LIVING_ATLAS"
-          }
-        ]
-      },
-      "id": "widget_234"
-    },
-    "widget_235": {
-      "uri": "widgets/common/text/",
-      "version": "1.13.0",
-      "icon": {
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"#000\" d=\"M8 5.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2ZM6.5 7.5A.5.5 0 0 1 7 7h1.5v4.5h1a.5.5 0 0 1 0 1h-3a.5.5 0 0 1 0-1h1V8H7a.5.5 0 0 1-.5-.5Z\"></path><path fill=\"#000\" fill-rule=\"evenodd\" d=\"M8 16A8 8 0 1 1 8 0a8 8 0 0 1 0 16Zm0-1A7 7 0 1 0 8 1a7 7 0 0 0 0 14Z\" clip-rule=\"evenodd\"></path></svg>",
-        "properties": {
-          "filename": "Info",
-          "originalName": "outlined/suggested/info.svg",
-          "path": [
-            "general",
-            "info"
-          ],
-          "color": "var(--secondary-100)",
-          "size": 16,
-          "inlineSvg": true,
-          "isUploaded": false
-        }
-      },
-      "label": "Info 2",
-      "config": {
-        "text": "<p>Welcome to the Tahoe Best Management Practices (BMP) Mapping Tool  </p><p><br></p><p>The BMP Map Viewer can be used to  </p><ul><li>View visible layers in a legend and turn on or off APN Labels, Catchments, and uploaded shapefiles </li><li>Locate and zoom to&nbsp;an area by entering in an address (or part off) or APN.  </li><li>Select parcels&nbsp;by drawing an area or entering catchment name  </li><li>Export the attributes of&nbsp;a selection to excel </li></ul>",
-        "style": {
-          "verticalAlign": "start",
-          "wrap": true
-        }
-      },
-      "id": "widget_235"
     }
   },
   "widgetsManifest": {},
@@ -4324,7 +3981,8 @@
           "mainDataSourceId": "dataSource_2-BMP_Status_2611-5",
           "rootDataSourceId": "dataSource_2",
           "fields": [
-            "Catchment"
+            "Catchment",
+            "AreaWidePlanName"
           ],
           "useFieldsInPopupInfo": true
         }
@@ -4350,9 +4008,9 @@
       "isOutputFromWidget": true,
       "sourceLabel": "Parcels"
     },
-    "dataSource_6": {
-      "id": "dataSource_6",
-      "label": "Search by Catchment result 3",
+    "widget_225_output_6325679104741193": {
+      "id": "widget_225_output_6325679104741193",
+      "label": "Search by Area Wide result",
       "type": "FEATURE_LAYER",
       "geometryType": "esriGeometryPolygon",
       "url": "https://maps.trpa.org/server/rest/services/BMP_Status/MapServer/5",
@@ -4362,68 +4020,8 @@
           "mainDataSourceId": "dataSource_2-BMP_Status_2611-5",
           "rootDataSourceId": "dataSource_2",
           "fields": [
-            "Catchment",
-            "AreaWide",
-            "APN",
-            "JURISDICTION",
-            "CertificateIssued",
-            "EvaluationComplete",
-            "SourceCertIssued",
-            "CertDate",
-            "CertReissuedDate",
-            "LandUse",
-            "BMPStatus",
-            "SourceCertDate",
-            "SiteConstraint",
-            "ParcelStreet",
-            "CreditPercent",
-            "CreditArea",
-            "Rvkd",
-            "TMDL_LandUse",
-            "SourceCertReissuedDate",
-            "SourceCertNo",
-            "CertNo",
-            "EXISTING_LANDUSE",
-            "OWNERSHIP_TYPE"
-          ],
-          "useFieldsInPopupInfo": true
-        }
-      ],
-      "layerId": "5",
-      "isOutputFromWidget": true,
-      "sourceLabel": "Parcels"
-    },
-    "dataSource_7": {
-      "id": "dataSource_7",
-      "label": "Search by Area Wide result 3",
-      "type": "FEATURE_LAYER",
-      "geometryType": "esriGeometryPolygon",
-      "url": "https://maps.trpa.org/server/rest/services/BMP_Status/MapServer/5",
-      "originDataSources": [
-        {
-          "dataSourceId": "dataSource_2-BMP_Status_2611-5",
-          "mainDataSourceId": "dataSource_2-BMP_Status_2611-5",
-          "rootDataSourceId": "dataSource_2",
-          "fields": [
-            "AreaWide"
+            "AreaWidePlanName"
           ]
-        }
-      ],
-      "layerId": "5",
-      "isOutputFromWidget": true,
-      "sourceLabel": "Parcels"
-    },
-    "dataSource_8": {
-      "id": "dataSource_8",
-      "label": "Search by Drawing result 3",
-      "type": "FEATURE_LAYER",
-      "geometryType": "esriGeometryPolygon",
-      "url": "https://maps.trpa.org/server/rest/services/BMP_Status/MapServer/5",
-      "originDataSources": [
-        {
-          "dataSourceId": "dataSource_2-BMP_Status_2611-5",
-          "mainDataSourceId": "dataSource_2-BMP_Status_2611-5",
-          "rootDataSourceId": "dataSource_2"
         }
       ],
       "layerId": "5",
@@ -4817,7 +4415,7 @@
       "page_0": []
     }
   ],
-  "timestamp": 1709081996055,
+  "timestamp": 1709241844674,
   "attributes": {
     "portalUrl": "https://trpa.maps.arcgis.com",
     "isWebTier": false,
