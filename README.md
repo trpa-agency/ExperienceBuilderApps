@@ -1,4 +1,4 @@
-# TRPA's Repository for apps built with ESRI's Expereience Builder
+# TRPA's Repository for apps built with ESRI's Experience Builder
  > The ExB Apps are built on \\arc10\C$\GIS\ExperienceBuilder\CurrentVersion. In order to develop those apps start the command prompt as an Administrator with the following commands <em><strong>cd C:\GIS\ExperienceBuilder\CurrentVersion\ArcGISExperienceBuilder\server</strong></em> then run the command <em><strong>npm start</strong></em>
 ## Apps in Production
 
